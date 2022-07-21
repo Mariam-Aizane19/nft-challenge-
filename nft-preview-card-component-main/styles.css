@@ -1,0 +1,155 @@
+
+.error{
+    color:hsl(215, 51%, 70%);
+    border:5px;
+    display:inline-block;
+    width:9px;
+    height:9px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 60px;
+    font-size: 16px;}
+
+body{
+    background-color: hsl(217, 54%, 11%);}
+
+h3{
+    color: white;}
+
+.title{
+     font-family:'Outfit', sans-serif; 
+     font-weight: 600 ;}
+
+.main{
+    color: hsl(215, 51%, 70%);
+    font-family:'Outfit', sans-serif;
+    font-size: 18px;}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width:240px;
+    height: auto;
+    padding:10px 10px;
+    margin-left: 40%;
+    margin-top:5%;
+    position: relative;
+    border-radius: 15px;
+    border:8px;}
+
+.price{
+    white-space: nowrap;
+    font-family:'Outfit', sans-serif;}
+
+.price div{
+    display: inline-block;
+    white-space: nowrap;}
+
+.price div p{
+    display: inline-block;}
+
+.price .diamond{
+    display: inline-block;
+    width:7px;
+    height:12px;}
+
+.last-line .first{
+    font-family:'Outfit', sans-serif;}
+
+    
+.last-line .second{
+    font-weight: 400;
+    color:white;
+    font-family:'Outfit', sans-serif;}
+
+.ETH p{  
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;}
+
+.avatar img{
+    margin-left: 1px;
+    margin-top: 10px;
+    width:20px;
+    height:20px;}
+
+.avatar div p{
+    color:hsl(215, 51%, 70%);
+    display:inline-block;}
+
+.nft img{
+    width:240px;
+    height: 240px;
+    border-radius: 15px;
+    border:5px;}
+
+hr{
+    opacity:0.5;
+    border-top: solid 1px hsl(228, 45%, 44%);}
+
+.avatar{
+    white-space: nowrap;}
+
+.error img{
+    width:12px;
+    height:12px;}
+
+.pdp{
+    border-style: solid;
+    border-radius: 20px;
+    color:white;
+    margin-top: 10px;}
+      
+.hidden {
+        position: absolute;
+        background-color: hsl(178, 100%, 50% , 50%);
+        height: 240px;
+        width: 240px;
+        border-radius: 7px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        margin-top: -245px;}
+
+.hidden:hover{
+        opacity: 1;
+        cursor: pointer;
+        }
+
+.view {
+    margin-top: 102px;
+    margin-left: 102px;
+}
+
+.attribution{ 
+    color:white; 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+
+
+
+@media screen and (max-width : 1000px) {
+    .card{
+        margin-left: 34%;
+        } 
+     } 
+
+@media screen and (max-width : 700px) {
+    .card{
+        margin-left: 30%;
+        }  
+    }
+        
+    
+@media screen and (max-width : 500px) {
+    .card{
+        margin-left: 20%;
+        } 
+    }
+    
+@media screen and (max-width : 360px) {
+    .card{
+        margin-left: 6%;
+        }
+    }
